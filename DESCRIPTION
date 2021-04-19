@@ -1,0 +1,24 @@
+Package: inconMore
+Title: More data for Computational Models of Simultaneous Consonance
+Version: 0.1
+Authors@R: c(
+    person(given = "Tuomas",
+           family = "Eerola",
+           role = c("aut", "cre"),
+           email = "tuomas.eerola@durham.ac.uk",
+           comment = c(ORCID = "0000-0002-2896-929X")),
+    person(given = "Imre",
+           family = "Lahdelma",
+           role = c("aut"),
+           email = "imre.lahdelma@durham.ac.uk")
+           )
+Description: This provides the rating data and the stimulus details
+    of nine datasets relates to consonance and dissonance. This data 
+    has been made to be compatible with `incon` library by Peter Harrison.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10)

@@ -1,0 +1,17 @@
+#' Lahdelma and Eerola 2016 smoothness ratings
+#'
+#' A dataset containing ratings of smoothness.
+#'
+#' @format A data frame with 15 rows and 7 variables:
+#' \describe{
+#'   \item{id}{Unique identifier of chords}
+#'   \item{num_ratings}{Number of ratings}
+#'   \item{pi_chord}{pitch of the chord tones in midi}
+#'   \item{pi_chord_type}{pitch-classes of the chord tones}
+#'   \item{rating}{Mean ratings}
+#'   \item{rating_sd}{standard deviation of the ratings}
+#'   \item{rating_se}{standard errors of the ratings}
+#'   ...
+#' }
+#' @source \url{https://doi.org/10.1177/2041669516655812}
+"lah16"

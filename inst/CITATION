@@ -1,0 +1,13 @@
+citHeader("To cite inconMore in publications use:")
+
+citEntry(entry = "Manual",
+  title = "inconMore - More data for Computational Models of Simultaneous Consonance",
+  author = personList(as.person("Tuomas Eerola"),as.person("Imre Lahdelma")),
+  year = 2021,
+  url = "https://github.com/tuomaseerola/inconMore",
+
+  textVersion  =
+  paste("Tuomas Eerola, Imre Lahdelma (2021).",
+        "inconMore - More Datasets for Consonance.",
+        "URL https://github.com/tuomaseerola/inconMore")
+)
